@@ -1,0 +1,46 @@
+*{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#container{
+    padding: 125px 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+#heading{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+
+#content{
+    background-color: rgb(248, 244, 8);
+    padding: 40px;
+    text-align: center;
+    color: blue;
+}
+
+.tempareture{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cen{
+    text-align: center;
+}
+
+/* responsive for mobile  */
+@media only screen and (max-width: 500px) {
+    #container {
+        padding: 125px 20px;
+    }
+}
